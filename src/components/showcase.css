@@ -1,0 +1,46 @@
+.socials-icon{
+    color: white;
+    cursor: pointer;
+}
+.socials-icon:hover{
+    color: #0ABCF9;
+    transition: 0.3s ease;
+}
+.resumeButton {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #3E88D1;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.resumeButton:hover {
+  background-color: #0ABCF9;
+}
+
+.content{
+  width: 80%;
+  color: white;
+  margin: 20px auto ;
+  text-align: center;
+  font-size: 15px;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+}
+.content p{
+  font-size: 17px;
+  margin-bottom: 20px;
+}
+.content button{
+  margin-top: 20px;
+}
+
+@media(max-width: 481px) {
+  #connect{
+    width: 70%;
+  }
+}

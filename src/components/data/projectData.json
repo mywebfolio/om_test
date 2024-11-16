@@ -1,0 +1,90 @@
+{
+  "personal_info": {
+    "my_name": "Om Patil",
+    "my_roles": [
+      "AI Engineer",
+      "Data engineer",
+      "Freelancer"
+    ],
+    "my_desc": "A third-year student at B.M.S. College of Engineering, I'm passionate about problem-solving, AI/ML, Data Engineering, and full-stack development. Leveraging technology, I aim to contribute to cutting-edge projects and collaborate with industry professionals to stay at the forefront of the evolving tech landscape.",
+    "my_linked": "https://leetcode.com/u/jp3ra/",
+    "my_github": "https://leetcode.com/u/jp3ra/",
+    "my_email": "https://leetcode.com/u/jp3ra/",
+    "my_resume": "https://leetcode.com/u/jp3ra/"
+  },
+  "project": [
+    {
+      "id": 0,
+      "project_name": "project1",
+      "project_desc": "Engineered a facial authentication portal using React and Node.js, enabling secure user access with facial recognition technology. Stored data in MongoDB for scalability and data security. Integrated the Gmail API to automate confirmation emails upon successful authentication, enhancing user experience and maintaining communication efficiency. Implemented Google Sheets API integration to log user data for administrative review.",
+      "tech_stack": [
+        "Python",
+        "JavaScript"
+      ],
+      "project_img": "https://leetcode.com/u/jp3ra/",
+      "project_url": "https://leetcode.com/u/jp3ra/",
+      "reverse": true
+    },
+    {
+      "id": 1,
+      "project_name": "project 2",
+      "project_desc": "Created a sophisticated language model using Langchain and Google Generative AI for generating personalized gym tips. Built a comprehensive knowledge base using Selenium to extract data from diverse gym URLs for model training. Utilized FAISS Vector stores to establish the vector database for text embeddings. Developed a user-friendly interface using Streamlit.",
+      "tech_stack": [
+        "Langchain",
+        "Streamlit"
+      ],
+      "project_img": "https://leetcode.com/u/jp3ra/",
+      "project_url": "https://leetcode.com/u/jp3ra/",
+      "reverse": false
+    }
+  ],
+  "language_info": {
+    "my_framework": [
+      "Node.js",
+      "Express.js",
+      "PySpark"
+    ],
+    "my_db": [
+      "MongoDB",
+      "MySQL"
+    ],
+    "my_lib": [
+      "Pandas",
+      "Numpy",
+      "Scikit-learn",
+      "OpenCV",
+      "React.js",
+      "TensorFlow"
+    ],
+    "my_tools": [
+      "Git and Github"
+    ],
+    "my_cloud": [
+      "AWS",
+      "Azure"
+    ],
+    "my_skill_desc": "Enthusiastic about artificial intelligence, I've crafted significant language models using LangChain and Google Generative AI. My expertise extends to NLP projects, tackling diverse classification and regression tasks with classical machine learning algorithms\n\nProficient in leveraging cloud platforms for AIML tasks and data engineering, I employ Apache Spark's PySpark framework for efficient data processing.\n\nBeyond that, I've successfully developed user-friendly, full-stack websites using the MERN Stack. With a keen eye for seamless deployment, I ensure these projects thrive on cloud platforms",
+    "my_language": [
+      "Python",
+      "C++"
+    ]
+  },
+  "roles": [
+    {
+      "id": 0,
+      "my_company": "hpe ",
+      "my_role": "reaseearch",
+      "start_date": "2003-09-24",
+      "end_date": "2002-10-25",
+      "my_role_desc": "lorem lorem lorem "
+    },
+    {
+      "id": 1,
+      "my_company": "SBC04431D - BMS College of Engineering,C16",
+      "my_role": "intenr ",
+      "start_date": "2003-08-27",
+      "end_date": "2003-08-09",
+      "my_role_desc": "lorem lorem "
+    }
+  ]
+}

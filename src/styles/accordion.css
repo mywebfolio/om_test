@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Dancing+Script:wght@400..700&family=Kalam:wght@300;400;700&family=Sacramento&display=swap');
+*{
+    font-family: DM Sans;
+}
+
+#accordion {
+    background-color: #29395f;
+    margin-top: 20px;
+    width: 600px;
+    padding: 15px 55px;
+    height: auto;
+    position: relative;
+    text-align: center;
+}
+
+#accordion:hover {
+    background: rgb(63,25,91);
+    background: linear-gradient(90deg, rgba(63,25,91,1) 0%, rgba(21,48,87,1) 100%);
+    transition: 0.4 ease-in-out;
+}
+
+#accordion::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(to right, #29395f, #ff0066);
+    transition: 0.3s ease;
+
+}
+
+/* .accordionButton {
+    width: 100%;
+    text-align: center;
+    background-color: transparent;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    margin-right: 10px;
+    margin-top: 0px;
+    font-size: 1.5rem; 
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+} */
+
+.accordionButton {
+    /* Remove margin-right and margin-top */
+    background-color: transparent;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    /* Remove font-size and text-align */
+    display: flex;
+    align-items: center; /* Align items vertically */
+}
+
+.accordionContent {
+    display: flex;
+    align-items: center; /* Center align the icons */
+    margin-top: 20px;
+}
+
+.accordionIcons {
+    margin-top: 10px;
+}
+
+p {
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.titles {
+    /* Adjust font size and add margin */
+    font-size: 1.5rem;
+    margin-right: 10px;
+}
+
+
+@media (max-width: 720px) {
+
+    #accordion > *{
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        justify-content: center;
+        text-align: center;
+    }
+
+    /* .titles{
+        text-align: left;
+        font-size: 1.2rem;
+    } */
+    .titles {
+        /* Adjust font size */
+        font-size: 1.2rem;
+        text-align: left; /* Align title to the left */
+    }
+    #accordion {
+        width: 100%;
+    }
+    .accordionIcons{
+        width: max-content;
+        
+    }
+    .accordionContent{
+        display: flex;
+        flex-direction: row;
+    }
+}
