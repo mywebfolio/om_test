@@ -15,7 +15,7 @@
   "project": [
     {
       "id": 0,
-      "project_name": "project1",
+      "project_name": "madarchod",
       "project_desc": "Engineered a facial authentication portal using React and Node.js, enabling secure user access with facial recognition technology. Stored data in MongoDB for scalability and data security. Integrated the Gmail API to automate confirmation emails upon successful authentication, enhancing user experience and maintaining communication efficiency. Implemented Google Sheets API integration to log user data for administrative review.",
       "tech_stack": [
         "Python",
